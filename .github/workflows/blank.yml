@@ -30,6 +30,7 @@ jobs:
         npm run build
     - uses: Cecilapp/GitHub-Pages-deploy@master
       env:
+        EMAIL: leopold.dinet@ldti.fr
         GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_DIR: dist
   
