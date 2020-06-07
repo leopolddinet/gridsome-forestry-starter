@@ -3,11 +3,12 @@ label: Theme configuration
 hide_body: true
 fields:
 - type: text
-  name: site_name
-  label: Site name
+  name: LDTI
+  label: LDTI
 - type: textarea
-  name: site_description
-  label: Site description
+  name: conception__creation_des_dossiers_techniques__conseil_et_expertise_en_amelioration_continue
+  label: conception, creation des dossiers techniques, conseil et expertise en amelioration
+    continue
 - type: textarea
   name: hero_title
   label: Hero title
