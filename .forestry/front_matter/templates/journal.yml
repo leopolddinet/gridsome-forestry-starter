@@ -3,8 +3,8 @@ label: Journal
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: Title
+  name: titre
+  label: titre
   config:
     required: true
 - type: textarea
@@ -24,7 +24,7 @@ fields:
     export_format: YYYY-MM-DD
   default: now
 - type: select
-  name: author
+  name: Auteur
   config:
     source:
       type: simple
@@ -33,7 +33,7 @@ fields:
     required: true
     options:
     - Nichlas W. Andersen
-  label: Author
+  label: Auteur
   default: Nichlas W. Andersen
 pages:
 - journal/macos-development-environment.md
